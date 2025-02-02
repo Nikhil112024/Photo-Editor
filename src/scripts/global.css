@@ -1,0 +1,396 @@
+/* 🌙 Gradient Background */
+body {
+  background: linear-gradient(to bottom, #121826, #050b17);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🏷️ Navbar Fix */
+.navbar {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-size: 18px; /* 🔥 Increased navbar text size */
+}
+
+.navbar a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.navbar .btn-premium {
+  background: gold;
+  color: black;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; /* 🔥 Increased button text size */
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .btn-premium:hover {
+  transform: scale(1.1);
+}
+
+/* 🖼️ Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  padding: 40px 20px;
+}
+
+/* 🟣 "PHOTO EDITOR" Heading */
+.hero-title {
+  font-size: 80px; /* 🔥 Increased from 72px */
+  font-weight: 900;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #a855f7, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-subtitle {
+  color: #ccc;
+  max-width: 800px; /* 🔥 Increased width for better readability */
+  margin: 15px auto;
+  font-size: 20px; /* 🔥 Increased from 16px */
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+/* 🎨 Buttons (Match Reference) */
+.btn-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 14px 24px; /* 🔥 Increased padding */
+  font-size: 20px; /* 🔥 Increased text size */
+  border-radius: 30px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 🟣 Glowing Purple Button */
+.btn-primary {
+  background: transparent;
+  color: white;
+  border: 2px solid #a855f7;
+  box-shadow: 0px 0px 20px rgba(168, 85, 247, 0.5);
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 30px rgba(168, 85, 247, 1);
+}
+
+/* ⚫ Black Button */
+.btn-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid #555;
+}
+
+.btn-secondary:hover {
+  border-color: white;
+}
+
+/* 🛠️ Tools Grid */
+.tools {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tool-item {
+  text-align: center;
+}
+
+.tool-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/* 🎨 Custom Colors for Tool Icons */
+.tool-e { background: #14b8a6; } /* Green */
+.tool-x { background: #3b82f6; } /* Blue */
+.tool-d { background: #9333ea; } /* Purple */
+.tool-bg { background: #ec4899; } /* Pink */
+.tool-b { background: #facc15; } /* Yellow */
+
+.tool-name {
+  margin-top: 10px;
+  font-size: 18px; /* 🔥 Increased */
+  color: white;
+}
+
+.tool-desc {
+  font-size: 16px; /* 🔥 Increased */
+  color: #aaa;
+}
+
+/* 🎨 Quick Links Section */
+.quick-links {
+  background: linear-gradient(to bottom, #8750d3, #9c6fd1);
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+/* 📌 Title Section */
+.quick-links-header {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.quick-links-header .tag {
+  background: #7a2cbf;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.quick-links-header .title {
+  font-size: 42px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.quick-links-header .subtitle {
+  font-size: 18px;
+  color: #e2d6ff;
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+/* 🔲 Grid Layout */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 30px auto 0;
+}
+
+/* 🟣 Feature Buttons */
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 16px 24px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.feature:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+/* 🌟 Icons */
+.feature svg {
+  font-size: 22px;
+}
+
+/* 🟣 Popup Background Overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Darker overlay to match theme */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* 🔲 Popup Container with Two Sections */
+.popup-container {
+  display: flex;
+  background: #181a1e; /* Dark background */
+  width: 750px;
+  height: 450px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* 📸 Left Side - Styled Image */
+.popup-image {
+  width: 40%;
+  background: #1c1f24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.popup-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Makes the image fit properly */
+}
+
+/* 📝 Right Side - Login Form */
+.popup-content {
+  width: 60%;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+}
+
+/* ❌ Close Button */
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.close-button:hover {
+  color: #ff4f4f;
+}
+
+/* 📝 Titles */
+.popup-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.popup-subtitle {
+  color: #b0b3b8;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* 🎨 Social Buttons */
+.popup-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.popup-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.popup-btn:hover {
+  opacity: 0.8;
+}
+
+/* 🌟 Button Colors */
+.google {
+  background: #ffffff;
+  color: #222;
+  font-weight: bold;
+}
+
+.facebook {
+  background: #1877f2;
+  color: white;
+  font-weight: bold;
+}
+
+.apple {
+  background: #000000;
+  color: white;
+  font-weight: bold;
+}
+
+/* 📩 Email Link */
+.popup-email {
+  color: #9fa5b3;
+  cursor: pointer;
+  margin-top: 12px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.popup-email:hover {
+  color: #ffffff;
+}
+
+/* 📜 Terms */
+.popup-terms {
+  font-size: 12px;
+  color: #9fa5b3;
+  margin-top: 15px;
+}
+
+.popup-link {
+  color: #58a6ff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.popup-link:hover {
+  text-decoration: underline;
+}
