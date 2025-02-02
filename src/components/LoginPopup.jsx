@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGoogle, FaFacebook, FaApple, FaTimes } from "react-icons/fa";
-import "../Scripts/global.css"; // Ensure global styles are imported
+
 
 
 export default function LoginPopup({ isOpen, onClose }) {
