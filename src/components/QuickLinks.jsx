@@ -1,6 +1,6 @@
 import React from "react";
 import { FaRocket, FaImage ,FaRobot, FaEraser, FaCrop, FaLeaf, FaExpand, FaPaintBrush, FaTable} from "react-icons/fa";
-
+import AIRemoveBackground from "./AI-Remove-Background";
 export default function QuickLinks() {
   return (
     <div className="quick-links">
@@ -9,6 +9,7 @@ export default function QuickLinks() {
             {/* Grid of Features */}
         <div className="features-grid">
         <div className="feature"><FaRobot /> AI Image Generator</div>
+        <AIRemoveBackground />
         <div className="feature"><FaImage /> AI Remove Background</div>
         <div className="feature"><FaEraser /> AI Remove Object</div>
         <div className="feature"><FaTable /> Photo Collage Maker</div>
