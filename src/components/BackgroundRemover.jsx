@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { FaImage, FaDownload } from "react-icons/fa"; // Import icons
+import { FaImage, FaDownload, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"; // Import icons
 import backgroundVideo from "/background.mp4"; // Import your MP4 video
 
 const BackgroundRemover = () => {
@@ -131,21 +131,48 @@ const BackgroundRemover = () => {
 
           {/* Error Message */}
           {error && <p className="error-message">{error}</p>}
-
-          {/* Footer */}
-          <p className="footer-text">
-            By uploading your image, you agree to our{" "}
-            <a href="#" className="footer-link">
-              Terms of Use
-            </a>{" "}
-            and{" "}
-            <a href="#" className="footer-link">
-              Privacy Policy
-            </a>
-            .
-          </p>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="footer">
+        <div className="footer-content">
+          {/* Social Media Links */}
+          <div className="social-media">
+            <a
+              href="https://github.com/nikhilkumar"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="social-icon" />
+            </a>
+            <a
+              href="https://linkedin.com/in/nikhilkumar"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="social-icon" />
+            </a>
+            <a
+              href="https://twitter.com/nikhilkumar"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter className="social-icon" />
+            </a>
+          </div>
+
+          {/* Company Information */}
+          <p className="company-info">
+            &copy; {new Date().getFullYear()} <strong>Kinor AI</strong>. All rights reserved.
+          </p>
+
+          {/* Made By */}
+          <p className="made-by">
+            Made with ❤️ by <strong>Nikhil Kumar</strong>
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };

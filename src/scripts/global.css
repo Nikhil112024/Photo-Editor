@@ -517,3 +517,139 @@ body {
 .btn-secondary:hover {
   border-color: white;
 }
+
+/* Footer */
+.footer {
+  background: linear-gradient(to bottom, #121826, #050b17);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #a855f7; /* Purple color on hover */
+}
+
+.company-info {
+  font-size: 14px;
+  color: #ccc;
+  margin: 10px 0;
+}
+
+.made-by {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.made-by strong {
+  color: #a855f7; /* Purple color for emphasis */
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(to bottom, #121826, #050b17);
+  padding: 40px 20px;
+  color: white;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #a855f7; /* Purple color for headings */
+}
+
+.footer-section p {
+  font-size: 14px;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 10px 0;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #a855f7; /* Purple color on hover */
+}
+
+.newsletter-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.newsletter-input input {
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  flex: 1;
+}
+
+.newsletter-input button {
+  padding: 10px 20px;
+  background: #a855f7; /* Purple color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.newsletter-input button:hover {
+  background: #7e22ce; /* Darker purple on hover */
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+}
