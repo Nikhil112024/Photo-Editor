@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { FaImage, FaDownload } from "react-icons/fa"; // Import icons
-import backgroundVideo from "../assets/background.MP4"; // Import your MP4 video
+import backgroundVideo from "/background.mp4"; // Import your MP4 video
 
 const BackgroundRemover = () => {
   const [image, setImage] = useState(null); // Store the uploaded image
