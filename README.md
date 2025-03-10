@@ -7,3 +7,6 @@ Post-processing
 Image/photo manipulation
 Photoshopping
 Image/photo enhancement
+
+
+Used Vite and ReactJS along whith TailwindCSS
